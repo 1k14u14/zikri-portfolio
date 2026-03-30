@@ -48,8 +48,9 @@ export default async function About({ locale }: { locale: string }) {
                             - Zikri Aulia -
                         </h3>
                     </div>
-                    
-                    <PortableText className="text-justify mt-3 text-slate-700 dark:text-slate-300" value={data.resume} />
+                    <div className="text-justify mt-3 text-slate-700 dark:text-slate-300 leading-relaxed">
+                        <PortableText value={data.resume} />
+                    </div>
                     
                     {/* Hard Skills Badges */}
                     <h3 className="mt-8 mb-4 font-bold text-lg">{t('hardSkills')}</h3>
