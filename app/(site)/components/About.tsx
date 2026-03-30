@@ -81,7 +81,7 @@ export default async function About({ locale }: { locale: string }) {
                     <div className="flex flex-col gap-4 mb-10">
                         {data.certification?.map((certificate, index) => {
                             const formattedStart = formatYearMonth(certificate.issueDate);
-                            const formattedEnd = certificate.ExpiredDate ? formatYearMonth(certificate.ExpiredDate) : 'Present';
+                            const formattedEnd = certificate.expirationdDate ? formatYearMonth(certificate.expirationdDate) : 'Present';
 
                             return (
                                 <div className="border border-border rounded-lg p-4 bg-white dark:bg-slate-950/50" key={`cert-${index}`}>
