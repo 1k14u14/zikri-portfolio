@@ -1,0 +1,53 @@
+{
+  "Navbar": {
+    "home": "Home",
+    "projects": "Projects",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "Sidebar": {
+    "projects": "Projects",
+    "about": "About",
+    "contact": "Contact",
+    "service": "Service"
+  },
+  "Hero": {
+    "greeting": "Hi, I'm",
+    "projectBtn": "View Projects",
+    "contactBtn": "Contact Me",
+    "scrollBtn": "Scroll Down"
+  },
+  "Projects": {
+    "title": "Featured Projects",
+    "viewBtn": "View All",
+    "description": "A selection of projects I've worked on",
+    "allProjects": "All Projects",
+    "searchPlaceholder": "Search by name or tech...",
+    "projectBtn": "View Project"
+  },
+  "About": {
+    "hardSkills": "Hard Skills",
+    "softSkills": "Soft Skills",
+    "certification": "Certification",
+    "experience": "Experience",
+    "education": "Education",
+    "major": "Major",
+    "studyProgram": "Study Program",
+    "gpa": "GPA",
+    "title": "Title"
+  },
+  "Service": {
+    "title": "What I DO",
+    "description": "Helping businesses build fast, scalable, and user-friendly web applications."
+  },
+  "Contact": {
+    "title": "Let's build something together",
+    "namePlaceholder": "Name...",
+    "messagePlaceholder": "Message...",
+    "sendBtn": "Send Message",
+    "loadBtn": "Sending..."
+  },
+  "Footer": {
+    "text": "Designed & Built by Zikri Aulia"
+  }
+}

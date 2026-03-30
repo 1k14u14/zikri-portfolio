@@ -1,0 +1,53 @@
+{
+  "Navbar": {
+    "home": "Beranda",
+    "projects": "Proyek",
+    "about": "Tentang",
+    "contact": "Kontak"
+  },
+  "Sidebar": {
+    "projects": "Proyek",
+    "about": "Tentang",
+    "contact": "Kontak",
+    "service": "Layanan"
+  },
+  "Hero": {
+    "greeting": "Halo, Saya",
+    "projectBtn": "Lihat Proyek",
+    "contactBtn": "Hubungi Saya",
+    "scrollBtn": "Gulir ke Bawah"
+  },
+  "Projects": {
+    "title": "Proyek Unggulan",
+    "viewBtn": "Lihat Semua",
+    "description": "Koleksi proyek yang pernah saya kerjakan",
+    "allProjects": "Semua Proyek",
+    "searchPlaceholder": "Cari nama atau teknologi...",
+    "projectBtn": "Lihat Proyek"
+  },
+  "About": {
+    "hardSkills": "Keahlian Teknis",
+    "softSkills": "Keahlian Non-Teknis",
+    "certification": "Sertifikasi",
+    "experience": "Pengalaman",
+    "education": "Pendidikan",
+    "major": "Jurusan",
+    "studyProgram": "Program Studi",
+    "gpa": "IPK",
+    "title": "Gelar"
+  },
+  "Service": {
+    "title": "Layanan Saya",
+    "description": "Membantu membangun aplikasi web bisnis yang cepat, skalabel, dan ramah pengguna."
+  },
+  "Contact": {
+    "title": "Mari bangun sesuatu yang hebat bersama",
+    "namePlaceholder": "Nama...",
+    "messagePlaceholder": "Pesan...",
+    "sendBtn": "Kirim Pesan",
+    "loadBtn": "Mengirim..."
+  },
+  "Footer": {
+    "text": "Dirancang & Dibangun oleh Zikri Aulia"
+  }
+}

@@ -1,26 +1,38 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/* 1. Tell Tailwind to listen for the .dark class on the HTML tag */
+@custom-variant dark (&:is(.dark *));
+
+/* 2. Map Tailwind's utility classes to our custom variables */
+@theme {
+  --color-background: var(--bg);
+  --color-foreground: var(--fg);
+  --color-primary: var(--primary);
+  --color-border: var(--border);
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
+/* 3. Define the exact colors for Light and Dark modes */
+@layer base {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --bg: #f8fafc; /* Very light gray */
+    --fg: #0f172a; /* Near black */
+    --primary: #4f46e5; /* Indigo */
+    --border: #e2e8f0;
   }
-}
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  .dark {
+    --bg: #021711; /* Very dark blue/black */
+    --fg: #f8fafc; /* Off-white */
+    --primary: #6366f1;
+    --border: #1e293b;
+  }
+
+  /* 4. Force the body to ALWAYS use these variables */
+  body {
+    background-color: var(--bg);
+    color: var(--fg);
+    transition:
+      background-color 0.3s ease,
+      color 0.3s ease;
+  }
 }
