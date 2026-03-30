@@ -16,7 +16,7 @@ A high-performance, bilingual personal portfolio and blog built to showcase mode
 * **📝 Headless CMS Integration:** Powered by Sanity v3. Content is fetched server-side for optimal SEO and performance, utilizing GROQ projections and strongly typed TypeScript interfaces.
 * **🔒 Secure Server Actions:** Contact form submissions are handled via Next.js Server Actions and the Resend API, keeping environment variables secure and out of the browser.
 
-> **🔴 [Live Demo: Click here to view the live portfolio!](https://https://zikri-portfolio-ten.vercel.app)**
+> **🔴 [Live Demo: Click here to view the live portfolio!](https://zikri-portfolio-ten.vercel.app)**
 
 ## 🛠️ Tech Stack
 
