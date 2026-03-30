@@ -85,7 +85,7 @@ export default function SearchableProjects({
                                 <h2 className="font-semibold text-lg line-clamp-1 mb-3">{project.name}</h2>
                                 
                                 <div className="flex flex-wrap gap-2">
-                                    {project.techStack?.map((stack: string, index: number) => (
+                                    {project.techStack.map((stack: string, index: number) => (
                                         <span 
                                             key={index}
                                             className="bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-xs px-2 py-1 rounded-md font-medium" 

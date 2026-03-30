@@ -60,7 +60,7 @@ export default async function Project({ params }: Props) {
       <div className="overflow-x-auto py-3 mt-6">
         <h3 className="font-bold mb-3">Tech Stack:</h3>
         <div className="flex flex-wrap gap-2">
-          {project.techStack?.map((stack, index) => (
+          {project.techStack.map((stack, index) => (
             <span 
               key={index}
               className="px-3 py-1 bg-slate-200 dark:bg-slate-800 rounded-lg text-sm font-medium" 

@@ -7,7 +7,7 @@ export type Project = {
     slug: string,
     images: string,
     coverImage: string,
-    techStack: string,
+    techStack: string[],
     url: string,
     content: PortableTextBlock[]
 }
