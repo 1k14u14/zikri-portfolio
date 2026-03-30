@@ -5,6 +5,7 @@ export type Project = {
     _createdAt: Date,
     name: string,
     slug: string,
+    category: string,
     images: string[],
     coverImage: string,
     techStack: string[],

@@ -23,7 +23,8 @@
     "description": "A selection of projects I've worked on",
     "allProjects": "All Projects",
     "searchPlaceholder": "Search by name or tech...",
-    "projectBtn": "View Project"
+    "projectBtn": "View Project",
+    "allCategories": "All Categories"
   },
   "About": {
     "hardSkills": "Hard Skills",

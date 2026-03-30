@@ -70,7 +70,15 @@ export default async function Projects({ locale }: { locale: string }) {
                             
                             {/* Card Content Area */}
                             <div className="p-4 flex-1 flex flex-col justify-between">
-                                <h2 className="font-bold text-lg line-clamp-1 mb-3">{project.name}</h2>
+                                <div>
+                                    {/* Category Badge on the Card */}
+                                    {project.category && (
+                                        <span className="text-primary text-xs font-bold uppercase tracking-wider mb-2 block">
+                                            {project.category}
+                                        </span>
+                                    )}
+                                    <h2 className="font-bold text-xl line-clamp-1 mb-3">{project.name}</h2>
+                                </div>
                                 
                                 <div className="flex flex-wrap gap-2">
                                     {/* Tech Stack Tags: Max 3 displayed, dark-mode ready */}

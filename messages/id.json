@@ -23,7 +23,8 @@
     "description": "Koleksi proyek yang pernah saya kerjakan",
     "allProjects": "Semua Proyek",
     "searchPlaceholder": "Cari nama atau teknologi...",
-    "projectBtn": "Lihat Proyek"
+    "projectBtn": "Lihat Proyek",
+    "allCategories": "Semua Kategori"
   },
   "About": {
     "hardSkills": "Keahlian Teknis",
