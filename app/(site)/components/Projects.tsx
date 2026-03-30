@@ -74,7 +74,7 @@ export default async function Projects({ locale }: { locale: string }) {
                                 
                                 <div className="flex flex-wrap gap-2">
                                     {/* Tech Stack Tags: Max 3 displayed, dark-mode ready */}
-                                    {project.techStack?.map((stack, index) => (
+                                    {project.techStack.map((stack, index) => (
                                         <span 
                                             key={`tech-${index}`}
                                             className="bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 px-2 py-1 text-xs font-medium rounded-md" 
