@@ -6,9 +6,9 @@ export type About = {
     title: string,
     avatar: string,
     resume: PortableTextBlock[],
-    hardSkills: string,
-    softSkills: string,
-    certification: string,
-    experience: string
-    educations: string
+    hardSkills: string[],
+    softSkills: string[],
+    certification: string[],
+    experience: string[],
+    educations: string[]
 }
