@@ -26,7 +26,7 @@ export async function sendEmail(prevState: any, formData: FormData) {
       // Update this 'from' address once you verify a domain in Resend!
       from: 'Portfolio Contact <onboarding@resend.dev>', 
       to: '1k14u14@gmail.com',
-      reply_to: email, // THE FIX: Now when you hit "Reply" in Gmail, it goes to the client!
+      replyTo: email, // THE FIX: Now when you hit "Reply" in Gmail, it goes to the client!
       subject: `New Portfolio Message from ${name}`,
       text: `Sender Email: ${email}\n\nMessage:\n${message}`,
     });
