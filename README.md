@@ -33,7 +33,7 @@ To run this project on your local machine, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/zikri-portfolio.git
+   git clone https://github.com/1k14u14/zikri-portfolio.git
    ```
 2. Install dependencies:
    ```bash
