@@ -77,7 +77,7 @@ export default function Contact() {
                 </form>
 
                 {/* --- SOCIAL LINKS SECTION --- */}
-                <div className="flex flex-col gap-6 mt-14 md:mt-0 md:flex-1 justify-center">
+                <div className="flex flex-col gap-6 mt-14 md:mt-0 md:flex-1">
                     <Link href="https://github.com/1k14u14" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-lg hover:text-primary transition-colors">
                         <BiLogoGithub size={28} /> 1k14u14
                     </Link>
