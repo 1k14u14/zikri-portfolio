@@ -73,7 +73,7 @@ export default async function Hero({ locale }: { locale: string }) {
                 >
                     <span className="uppercase tracking-widest">{t('scrollBtn')}</span>
                     {/* The bounce animation applied directly to the arrow icon */}
-                    <span className="text-2xl animate-bounce group-hover:text-primary">&darr;</span>
+                    {/* <span className="text-2xl animate-bounce group-hover:text-primary">&darr;</span> */}
                 </a>
             </div>
 
